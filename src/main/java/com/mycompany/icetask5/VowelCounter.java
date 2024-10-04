@@ -23,5 +23,9 @@ public class VowelCounter {
         }
         return vowelCount;
     }
+public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a sentence: ");
+        String input = scanner.nextLine();
 
     
